@@ -30,13 +30,13 @@ sections.forEach((section, index) => {
     <section data-index="${index}">
       <h1>${section.heading}</h1>
       <div class="main-img">
-        <img src="gallery-images/${section.mainImg}.png" class="${section.class}" alt="${section.heading}" onclick="showFullscreen('${section.mainImg}', ${index})">
+        <img src="../gallery-images/${section.mainImg}.png" class="${section.class}" alt="${section.heading}" onclick="showFullscreen('${section.mainImg}', ${index})">
       </div>
       <div class="other-imgs">
         <button class="btn btn-primary left-arrow" onclick="changeImage(${index}, -1)"><i class="ri-arrow-left-wide-line"></i></button>
-        <img src="gallery-images/${section.mainImg}.png" alt="${section.heading}" onclick="${section.function}('gallery-images/${section.mainImg}.png', ${index})">
+        <img src="../gallery-images/${section.mainImg}.png" alt="${section.heading}" onclick="${section.function}('../gallery-images/${section.mainImg}.png', ${index})">
         ${section.images.map((img) => `
-          <img src="gallery-images/${img}.png" alt="${section.heading}" onclick="${section.function}('gallery-images/${img}.png', ${index})">
+          <img src="../gallery-images/${img}.png" alt="${section.heading}" onclick="${section.function}('../gallery-images/${img}.png', ${index})">
         `).join('')}
         <button class="btn btn-primary right-arrow" onclick="changeImage(${index}, 1)"><i class="ri-arrow-right-wide-line"></i></button>
       </div>
@@ -48,7 +48,7 @@ sections.forEach((section, index) => {
     </section>`;
 });
 
-let currentIndexes = sections.map(() => 0); 
+let currentIndexes = sections.map(() => 0);
 
 // Set the initial active class on the main images
 setActiveImages();
@@ -112,7 +112,7 @@ function removeActiveClass(sectionIndex) {
 function showFullscreen(imgSrc, sectionIndex) {
   const overlay = document.getElementById(`overlay-${sectionIndex}`);
   const overlayImage = document.getElementById(`overlayImage-${sectionIndex}`);
-  
+
   // Get the current main image source
   const currentMainImg = document.querySelector(`section[data-index="${sectionIndex}"] .main-img img`).src;
 
