@@ -13,13 +13,13 @@ In this project, I have designed an image gallery to showcase the power of:
 ## Features
 
 ### 1. HTML-only Version
-[Click here](html.html) to view how the website looks using only HTML. It’s basic and functional but lacks any styling or interactivity.
+[Click here](https://kaniz-naqvi.github.io/HTML-CSS-JS-exampleshtml.html) to view how the website looks using only HTML. It’s basic and functional but lacks any styling or interactivity.
 
 ### 2. Styled Version (Using CSS)
-[Explore here](css/css.html) to see the same website after applying CSS. Minor styling enhances the overall look, making it more appealing and easy to navigate.
+[Explore here](https://kaniz-naqvi.github.io/HTML-CSS-JS-examplescss/css.html) to see the same website after applying CSS. Minor styling enhances the overall look, making it more appealing and easy to navigate.
 
 ### 3. Interactive Version (Using JavaScript)
-[Explore here](js/gallery.html) to experience how JavaScript brings interactivity into the website. Features like image swapping, fullscreen view, and image navigation make the gallery much more dynamic and engaging.
+[Explore here](https://kaniz-naqvi.github.io/HTML-CSS-JS-examplesjs/gallery.html) to experience how JavaScript brings interactivity into the website. Features like image swapping, fullscreen view, and image navigation make the gallery much more dynamic and engaging.
 
 ## How to Explore
 
