@@ -42,11 +42,11 @@ sections.forEach((section, index) => {
       </div>
       <div class="other-imgs">
         <button class="btn btn-primary left-arrow" onclick="changeImage(${index}, -1)"><i class="ri-arrow-left-wide-line"></i></button>
-        <img src="gallery-images/${section.mainImg}.png" alt="${section.heading}" onclick="${section.function}('gallery-images/${section.mainImg}.png', ${index})">
-        <img src="gallery-images/${section.firstImg}.png" alt="${section.heading}" onclick="${section.function}('gallery-images/${section.firstImg}.png', ${index})">
-        <img src="gallery-images/${section.secondImg}.png" alt="${section.heading}" onclick="${section.function}('gallery-images/${section.secondImg}.png', ${index})">
-        <img src="gallery-images/${section.thirdImg}.png" alt="${section.heading}" onclick="${section.function}('gallery-images/${section.thirdImg}.png', ${index})">
-        <img src="gallery-images/${section.forthImg}.png" alt="${section.heading}" onclick="${section.function}('gallery-images/${section.forthImg}.png', ${index})">
+        <img src="../gallery-images//${section.mainImg}.png" alt="${section.heading}" onclick="${section.function}('../gallery-images//${section.mainImg}.png', ${index})">
+        <img src="../gallery-images//${section.firstImg}.png" alt="${section.heading}" onclick="${section.function}('../gallery-images//${section.firstImg}.png', ${index})">
+        <img src="../gallery-images//${section.secondImg}.png" alt="${section.heading}" onclick="${section.function}('../gallery-images//${section.secondImg}.png', ${index})">
+        <img src="../gallery-images//${section.thirdImg}.png" alt="${section.heading}" onclick="${section.function}('../gallery-images//${section.thirdImg}.png', ${index})">
+        <img src="../gallery-images//${section.forthImg}.png" alt="${section.heading}" onclick="${section.function}('../gallery-images//${section.forthImg}.png', ${index})">
         <button class="btn btn-primary right-arrow" onclick="changeImage(${index}, 1)"><i class="ri-arrow-right-wide-line"></i></button>
       </div>
 
@@ -84,19 +84,19 @@ function changeImage(sectionIndex, direction) {
   let newImgSrc;
   switch (currentIndexes[sectionIndex]) {
     case 0:
-      newImgSrc = `gallery-images/${section.mainImg}.png`;
+      newImgSrc = `../gallery-images//${section.mainImg}.png`;
       break;
     case 1:
-      newImgSrc = `gallery-images/${section.firstImg}.png`;
+      newImgSrc = `../gallery-images//${section.firstImg}.png`;
       break;
     case 2:
-      newImgSrc = `gallery-images/${section.secondImg}.png`;
+      newImgSrc = `../gallery-images//${section.secondImg}.png`;
       break;
     case 3:
-      newImgSrc = `gallery-images/${section.thirdImg}.png`;
+      newImgSrc = `../gallery-images//${section.thirdImg}.png`;
       break;
     case 4:
-      newImgSrc = `gallery-images/${section.forthImg}.png`;
+      newImgSrc = `../gallery-images//${section.forthImg}.png`;
       break;
   }
 
