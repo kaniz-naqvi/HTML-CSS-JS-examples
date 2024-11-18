@@ -19,7 +19,7 @@ In this project, I have designed an image gallery to showcase the power of:
 [Explore here](https://kaniz-naqvi.github.io/HTML-CSS-JS-examples/css/css.html) to see the same website after applying CSS. Minor styling enhances the overall look, making it more appealing and easy to navigate.
 
 ### 3. Interactive Version (Using JavaScript)
-[Explore here](https://kaniz-naqvi.github.io/HTML-CSS-JS-examples/js/gallery.html) to experience how JavaScript brings interactivity into the website. Features like image swapping, fullscreen view, and image navigation make the gallery much more dynamic and engaging.
+[Explore here](https://kaniz-naqvi.github.io/Internship/CodeAlpha_Project-IMAGE-GALLERY/gallery.html) to experience how JavaScript brings interactivity into the website. Features like image swapping, fullscreen view, and image navigation make the gallery much more dynamic and engaging.
 
 ## How to Explore
 
